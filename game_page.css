@@ -1,0 +1,109 @@
+#number_1, #number_2 :placeholder{
+    color: white;
+    font-family: 'Mate SC', serif;
+  }
+
+.no_input, #time_given{
+    background-color: black;
+}
+
+body
+{
+	background-image: url("Math Background.jpg");
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 30%;
+		height: 150px;
+		background-color: wheat;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 3px;
+	color:cyan;
+	font-weight: bold;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+}
+h1{
+	color: orange;
+	font-family: 'Akaya Kanadaka', cursive;
+}
+.pl_info{
+	font-family: 'EB Garamond', serif;
+	color: wheat;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.p_info{
+	font-family: 'EB Garamond', serif;
+	color: wheat;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+#username{
+	font-family: 'Yellowtail', cursive;
+	color: turquoise;
+}
+button{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input:hover{
+	background-color: yellow;
+}
+.login_div2:hover{
+	border: 5px solid rgb(102, 6, 73);
+	width: 35%;
+}
+.login_div1:hover{
+	border: 5px solid rgb(102, 6, 73);
+	width: 35%;
+}
+#number_1, #number_2, #time_given
+{
+	color: tomato;
+	font-weight: bold;
+}
+h4{
+	color: wheat;
+	font-family: 'Ubuntu', sans-serif;
+	width: 100px;
+    text-align: justify;
+    display: inline;
+}
+h4:hover{
+	text-decoration: underline;
+}
+#time_given:hover{
+    background-color: yellow;
+}
+
+#timer-2{
+    justify-content: left;
+}
